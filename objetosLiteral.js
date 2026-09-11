@@ -14,18 +14,7 @@ const exibir = function(){
   console.log(this)
 }
 exibir()
-const admin = {
-  nome: "Mariana",
-  email: "m@m.com",
-  role: "admin",
-  criarCurso() {
-    console.log('curso criado!')
-  }
-}
 
-Object.setPrototypeOf(admin, user)
-admin.criarCurso()
-admin.exibirInfos()
 
 
 
