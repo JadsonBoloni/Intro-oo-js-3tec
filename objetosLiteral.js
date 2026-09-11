@@ -7,8 +7,13 @@ const user = {
   exibirInfos: function() {
     console.log(this.nome, this.email)
   }
-}
+}    
+user.exibirInfos()
 
+const exibir = function(){
+  console.log(this)
+}
+exibir()
 const admin = {
   nome: "Mariana",
   email: "m@m.com",
